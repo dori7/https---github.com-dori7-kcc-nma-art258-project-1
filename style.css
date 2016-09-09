@@ -1,0 +1,119 @@
+@import 'https://fonts.googleapis.com/css?family=Lora';
+@import 'https://fonts.googleapis.com/css?family=Muli';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+/*box-shadow: 0 0 20px 0 black;
+  background:
+  */
+}
+
+p {
+  line height: 2px;
+
+}
+
+
+img {
+width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  width: 75%;
+}
+
+nav h1 {
+  color: #333;
+  width: 25%;
+}
+
+nav li {
+  width: 100%;
+  justify-content: space-between;
+  text-align: center;
+}
+
+nav li a {
+  text-decoration: none;
+  color: lightgreen;
+  font-size: 12px;
+  font-family: 'Muli', sans-serif;
+}
+
+nav li a.follow {
+  text-decoration: none;
+  color: lightgrey;
+  font-size: 12px;
+  font-family: 'Muli', sans-serif;
+}
+
+.main-article {
+  display: flex;
+  justify-content: space-between;
+}
+
+aside p:first-letter {
+  border: none;
+  color: #ccc;
+  font-size: 10px;
+  padding: 0;
+  float: none;
+  margin: 0;
+
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 40px;
+  line-height: 28px;
+}
+
+h2 {
+  color: lightgrey;
+  font-size: 20px;
+  line-height: 0;
+}
+
+
+@media screen and (min-width: 420px) {
+
+
+  .main {
+   max
+  }
+  p {
+    line height: 1px;
+  }
+
+  h1 {
+    font-size: 20px;
+    line-height: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
